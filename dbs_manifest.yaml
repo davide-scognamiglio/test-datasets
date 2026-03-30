@@ -1,0 +1,9 @@
+# db_manifest.yaml
+GRCh38:
+  VEP_cache:
+    DBname: homo_sapiens_vep_cache
+    VERSION: 115
+    OUT: homo_sapiens_vep_115_GRCh38.tar.gz
+    URL: https://ftp.ensembl.org/pub/release-115/variation/indexed_vep_cache/homo_sapiens_vep_115_GRCh38.tar.gz
+    METHOD: curl
+    SHA256: 
