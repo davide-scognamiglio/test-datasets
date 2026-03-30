@@ -6,12 +6,317 @@ GRCh38:
     OUT: homo_sapiens_vep_115_GRCh38.tar.gz
     URL: https://ftp.ensembl.org/pub/release-115/variation/indexed_vep_cache/homo_sapiens_vep_115_GRCh38.tar.gz
     METHOD: curl
-    SHA256: 
+    SHA256:
+
+  VEP_AlphaMissense:
+    DBname: vep_AlphaMissense
+    VERSION: -
+    OUT: AlphaMissense_hg38.tsv.gz
+    URL: https://storage.googleapis.com/dm_alphamissense/AlphaMissense_hg38.tsv.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_AncestralAllele:
+    DBname: vep_AncestralAllele
+    VERSION: -
+    OUT: homo_sapiens_ancestor_GRCh38.tar.gz
+    URL: https://ftp.ensembl.org/pub/current_fasta/ancestral_alleles/homo_sapiens_ancestor_GRCh38.tar.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_CADD_SNVs:
+    DBname: vep_CADD_SNVs
+    VERSION: 1.7
+    OUT: whole_genome_SNVs.tsv.gz
+    URL: https://kircherlab.bihealth.org/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_CADD_SNVs_tbi:
+    DBname: vep_CADD_SNVs
+    VERSION: 1.7
+    OUT: whole_genome_SNVs.tsv.gz.tbi
+    URL: https://kircherlab.bihealth.org/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz.tbi
+    METHOD: wget
+    SHA256:
+
   VEP_GWAS:
     DBname: vep_GWAS
-    VERSION: 1
+    VERSION: -
     OUT: gwas.zip
     URL: https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0?split=false
     METHOD: wget
-    SHA256: 
+    SHA256:
 
+  VEP_Enformer:
+    DBname: vep_Enformer
+    VERSION: -
+    OUT: enformer_grch38.vcf.gz
+    URL: https://ftp.ensembl.org/pub/current_variation/Enformer/enformer_grch38.vcf.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_Enformer_tbi:
+    DBname: vep_Enformer
+    VERSION: -
+    OUT: enformer_grch38.vcf.gz.tbi
+    URL: https://ftp.ensembl.org/pub/current_variation/Enformer/enformer_grch38.vcf.gz.tbi
+    METHOD: wget
+    SHA256:
+
+  VEP_dbscSNV:
+    DBname: vep_dbscSNV
+    VERSION: 1.1
+    OUT: dbscSNV1.1.zip
+    URL: https://usf.box.com/shared/static/ffwlywsat3q5ijypvunno3rg6steqfs8
+    METHOD: wget
+    SHA256:
+
+  VEP_ReferenceQuality:
+    DBname: vep_ReferenceQuality
+    VERSION: -
+    OUT: annotated_clone_assembly_problems_GCF_000001405.38.gff3
+    URL: https://ftp.ncbi.nlm.nih.gov/pub/grc/human/GRC/GRCh38/MISC/annotated_clone_assembly_problems_GCF_000001405.38.gff3
+    METHOD: wget
+    SHA256:
+
+  VEP_ReferenceQuality_issues:
+    DBname: vep_ReferenceQuality
+    VERSION: -
+    OUT: GRCh38.p12_issues.gff3
+    URL: https://ftp.ncbi.nlm.nih.gov/pub/grc/human/GRC/Issue_Mapping/GRCh38.p12_issues.gff3
+    METHOD: wget
+    SHA256:
+
+  VEP_pLI:
+    DBname: vep_pLI
+    VERSION: 112
+    OUT: pLI_values.txt
+    URL: https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/112/pLI_values.txt
+    METHOD: wget
+    SHA256:
+
+  VEP_MaxEntScan:
+    DBname: vep_MaxEntScan
+    VERSION: -
+    OUT: MaxEntScan-master.zip
+    URL: https://github.com/matthdsm/MaxEntScan/archive/refs/heads/master.zip
+    METHOD: wget
+    SHA256:
+
+  VEP_EVE:
+    DBname: vep_EVE
+    VERSION: -
+    OUT: download.zip
+    URL: https://evemodel.org/api/proteins/bulk/download/
+    METHOD: wget
+    SHA256:
+
+  VEP_PhenotypeOrthologous:
+    DBname: vep_PhenotypeOrthologous
+    VERSION: 112
+    OUT: PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz
+    URL: https://ftp.ensembl.org/pub/current_variation/PhenotypeOrthologous/PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_PhenotypeOrthologous_tbi:
+    DBname: vep_PhenotypeOrthologous
+    VERSION: 112
+    OUT: PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz.tbi
+    URL: https://ftp.ensembl.org/pub/current_variation/PhenotypeOrthologous/PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz.tbi
+    METHOD: wget
+    SHA256:
+
+  VEP_mutfunc:
+    DBname: vep_mutfunc
+    VERSION: -
+    OUT: mutfunc_data.db
+    URL: https://ftp.ensembl.org/pub/current_variation/mutfunc/mutfunc_data.db
+    METHOD: wget
+    SHA256:
+
+  VEP_ClinPred:
+    DBname: vep_ClinPred
+    VERSION: -
+    OUT: ClinPred_GRCh38.txt
+    URL: https://drive.google.com/file/d/1e0kd9hO1uCEuGzAhwEmLCNluqDFJE28y
+    METHOD: gdown
+    SHA256:
+
+  reference_genome:
+    DBname: reference_genome
+    VERSION: -
+    OUT: GRCh38.fa.gz
+    URL: https://hgdownload.soe.ucsc.edu/goldenpath/GRCh38/bigZips/GRCh38.fa.gz
+    METHOD: wget
+    SHA256:
+
+
+  VEP_MaveDB:
+    DBname: vep_MaveDB
+    VERSION: -
+    OUT: MaveDB_variants.tsv.gz
+    URL: https://ftp.ensembl.org/pub/current_variation/MaveDB/MaveDB_variants.tsv.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_MaveDB_tbi:
+    DBname: vep_MaveDB
+    VERSION: -
+    OUT: MaveDB_variants.tsv.gz.tbi
+    URL: https://ftp.ensembl.org/pub/current_variation/MaveDB/MaveDB_variants.tsv.gz.tbi
+    METHOD: wget
+    SHA256:
+
+  dbNSFP:
+    DBname: dbNSFP
+    VERSION: 5.3.1a
+    OUT: dbNSFP5.3.1a.zip
+    URL: https://dist.genos.us/academic/e55b09/dbNSFP5.3.1a.zip
+    METHOD: wget
+    SHA256:
+
+  VEP_UTRannotator:
+    DBname: vep_UTRannotator
+    VERSION: -
+    OUT: uORF_5UTR_GRCh38_PUBLIC.txt
+    URL: https://raw.githubusercontent.com/Ensembl/UTRannotator/master/uORF_5UTR_GRCh38_PUBLIC.txt
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_refGene:
+    DBname: annovar_refGene
+    VERSION: -
+    OUT: GRCh38_refGene.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_refGene.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_refGeneMrna:
+    DBname: annovar_refGeneMrna
+    VERSION: -
+    OUT: GRCh38_refGeneMrna.fa.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_refGeneMrna.fa.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_refGeneVersion:
+    DBname: annovar_refGeneVersion
+    VERSION: -
+    OUT: GRCh38_refGeneVersion.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_refGeneVersion.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_ensGene:
+    DBname: annovar_ensGene
+    VERSION: -
+    OUT: GRCh38_ensGene.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_ensGene.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_ensGeneMrna:
+    DBname: annovar_ensGeneMrna
+    VERSION: -
+    OUT: GRCh38_ensGeneMrna.fa.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_ensGeneMrna.fa.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_avsnp150:
+    DBname: annovar_avsnp150
+    VERSION: 150
+    OUT: GRCh38_avsnp150.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_avsnp150.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_avsnp150_idx:
+    DBname: annovar_avsnp150
+    VERSION: 150
+    OUT: GRCh38_avsnp150.txt.idx.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_avsnp150.txt.idx.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_gnomad211_exome:
+    DBname: annovar_gnomad211_exome
+    VERSION: 2.1.1
+    OUT: GRCh38_gnomad211_exome.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_gnomad211_exome.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_gnomad211_exome_idx:
+    DBname: annovar_gnomad211_exome
+    VERSION: 2.1.1
+    OUT: GRCh38_gnomad211_exome.txt.idx.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_gnomad211_exome.txt.idx.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_dbnsfp35c:
+    DBname: annovar_dbnsfp35c
+    VERSION: 3.5c
+    OUT: GRCh38_dbnsfp35c.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_dbnsfp35c.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_dbnsfp35c_idx:
+    DBname: annovar_dbnsfp35c
+    VERSION: 3.5c
+    OUT: GRCh38_dbnsfp35c.txt.idx.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_dbnsfp35c.txt.idx.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_intervar_20180118:
+    DBname: annovar_intervar
+    VERSION: 20180118
+    OUT: GRCh38_intervar_20180118.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_intervar_20180118.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_intervar_20180118_idx:
+    DBname: annovar_intervar
+    VERSION: 20180118
+    OUT: GRCh38_intervar_20180118.txt.idx.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_intervar_20180118.txt.idx.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_clinvar_20250721:
+    DBname: annovar_clinvar
+    VERSION: 20250721
+    OUT: GRCh38_clinvar_20250721.txt.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_clinvar_20250721.txt.gz
+    METHOD: wget
+    SHA256:
+
+  ANNOVAR_clinvar_20250721_idx:
+    DBname: annovar_clinvar
+    VERSION: 20250721
+    OUT: GRCh38_clinvar_20250721.txt.idx.gz
+    URL: http://www.openbioinformatics.org/annovar/download/GRCh38_clinvar_20250721.txt.idx.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_SpliceVault:
+    DBname: vep_SpliceVault
+    VERSION: -
+    OUT: SpliceVault_data_GRCh38.tsv.gz
+    URL: https://ftp.ensembl.org/pub/current_variation/SpliceVault/SpliceVault_data_GRCh38.tsv.gz
+    METHOD: wget
+    SHA256:
+
+  VEP_SpliceVault_tbi:
+    DBname: vep_SpliceVault
+    VERSION: -
+    OUT: SpliceVault_data_GRCh38.tsv.gz.tbi
+    URL: https://ftp.ensembl.org/pub/current_variation/SpliceVault/SpliceVault_data_GRCh38.tsv.gz.tbi
+    METHOD: wget
+    SHA256:
