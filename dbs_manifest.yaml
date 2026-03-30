@@ -7,3 +7,11 @@ GRCh38:
     URL: https://ftp.ensembl.org/pub/release-115/variation/indexed_vep_cache/homo_sapiens_vep_115_GRCh38.tar.gz
     METHOD: curl
     SHA256: 
+  VEP_GWAS:
+    DBname: vep_GWAS
+    VERSION: 1
+    OUT: gwas.zip
+    URL: https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0?split=false
+    METHOD: wget
+    SHA256: 
+
