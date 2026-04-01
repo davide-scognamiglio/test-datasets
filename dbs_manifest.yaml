@@ -1,360 +1,360 @@
-GRCh38:
-  VEP_cache:
-    DBname: "homo_sapiens_vep_cache"
-    VERSION: 115
-    OUT: "homo_sapiens_vep_115_GRCh38.tar.gz"
-    URL: "https://ftp.ensembl.org/pub/release-115/variation/indexed_vep_cache/homo_sapiens_vep_115_GRCh38.tar.gz"
-    METHOD: "curl"
-    EXPECTED_SHA256: "5871a5e34527cce76f7ac75399c33e306bf3be8083c63fe7d3459c56338f98de"
-    COMPUTED_SHA256: ""
+grch38:
+  vep_cache:
+    dbname: "homo_sapiens_vep_cache"
+    version: 115
+    out: "homo_sapiens_vep_115_grch38.tar.gz"
+    url: "https://ftp.ensembl.org/pub/release-115/variation/indexed_vep_cache/homo_sapiens_vep_115_grch38.tar.gz"
+    method: "curl"
+    expected_sha256: "5871a5e34527cce76f7ac75399c33e306bf3be8083c63fe7d3459c56338f98de"
+    computed_sha256: ""
 
-  VEP_AlphaMissense:
-    DBname: "vep_AlphaMissense"
-    VERSION: "-"
-    OUT: "AlphaMissense_hg38.tsv.gz"
-    URL: "https://storage.googleapis.com/dm_alphamissense/AlphaMissense_hg38.tsv.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "0516cfd71c0767ac8f9c469252d429000e94e02c008b6e3a46d4b4646fcd3475"
-    COMPUTED_SHA256: ""
+  vep_alphamissense:
+    dbname: "vep_alphamissense"
+    version: "-"
+    out: "alphamissense_hg38.tsv.gz"
+    url: "https://storage.googleapis.com/dm_alphamissense/alphamissense_hg38.tsv.gz"
+    method: "wget"
+    expected_sha256: "0516cfd71c0767ac8f9c469252d429000e94e02c008b6e3a46d4b4646fcd3475"
+    computed_sha256: ""
 
-  VEP_AncestralAllele:
-    DBname: "vep_AncestralAllele"
-    VERSION: "-"
-    OUT: "homo_sapiens_ancestor_GRCh38.tar.gz"
-    URL: "https://ftp.ensembl.org/pub/current_fasta/ancestral_alleles/homo_sapiens_ancestor_GRCh38.tar.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "0cf6ba15f27ad01b612ecd9af3c7c71c44e15eb0ac6a6a257700c08104c7f826"
-    COMPUTED_SHA256: ""
+  vep_ancestralallele:
+    dbname: "vep_ancestralallele"
+    version: "-"
+    out: "homo_sapiens_ancestor_grch38.tar.gz"
+    url: "https://ftp.ensembl.org/pub/current_fasta/ancestral_alleles/homo_sapiens_ancestor_grch38.tar.gz"
+    method: "wget"
+    expected_sha256: "0cf6ba15f27ad01b612ecd9af3c7c71c44e15eb0ac6a6a257700c08104c7f826"
+    computed_sha256: ""
 
-  VEP_CADD_SNVs:
-    DBname: "vep_CADD_SNVs"
-    VERSION: "1.7"
-    OUT: "whole_genome_SNVs.tsv.gz"
-    URL: "https://kircherlab.bihealth.org/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "11582f442d3db5bc529a3786e9ddfe27860642c2447d64e468387ad9c050645a"
-    COMPUTED_SHA256: ""
+  vep_cadd_snvs:
+    dbname: "vep_cadd_snvs"
+    version: "1.7"
+    out: "whole_genome_snvs.tsv.gz"
+    url: "https://kircherlab.bihealth.org/download/cadd/v1.7/grch38/whole_genome_snvs.tsv.gz"
+    method: "wget"
+    expected_sha256: "11582f442d3db5bc529a3786e9ddfe27860642c2447d64e468387ad9c050645a"
+    computed_sha256: ""
 
-  VEP_CADD_SNVs_tbi:
-    DBname: "vep_CADD_SNVs"
-    VERSION: "1.7"
-    OUT: "whole_genome_SNVs.tsv.gz.tbi"
-    URL: "https://kircherlab.bihealth.org/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz.tbi"
-    METHOD: "wget"
-    EXPECTED_SHA256: "bf21382da1faa72dfee9dd0905bc294b9e074f70b31daaed370f19b0db4ce8f4"
-    COMPUTED_SHA256: ""
+  vep_cadd_snvs_tbi:
+    dbname: "vep_cadd_snvs"
+    version: "1.7"
+    out: "whole_genome_snvs.tsv.gz.tbi"
+    url: "https://kircherlab.bihealth.org/download/cadd/v1.7/grch38/whole_genome_snvs.tsv.gz.tbi"
+    method: "wget"
+    expected_sha256: "bf21382da1faa72dfee9dd0905bc294b9e074f70b31daaed370f19b0db4ce8f4"
+    computed_sha256: ""
 
-  VEP_GWAS:
-    DBname: "vep_GWAS"
-    VERSION: "-"
-    OUT: "gwas.zip"
-    URL: "https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0?split=false"
-    METHOD: "wget"
-    EXPECTED_SHA256: "a4448d4452aa78c2cddfac75ce8070e641eefe7822e03fbc313118885657a521"
-    COMPUTED_SHA256: ""
+  vep_gwas:
+    dbname: "vep_gwas"
+    version: "-"
+    out: "gwas.zip"
+    url: "https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0?split=false"
+    method: "wget"
+    expected_sha256: "a4448d4452aa78c2cddfac75ce8070e641eefe7822e03fbc313118885657a521"
+    computed_sha256: ""
 
-  VEP_Enformer:
-    DBname: "vep_Enformer"
-    VERSION: "-"
-    OUT: "enformer_grch38.vcf.gz"
-    URL: "https://ftp.ensembl.org/pub/current_variation/Enformer/enformer_grch38.vcf.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "e2a6d792c9e604a02c5de8b1aff9f943d3a035bb2e94f3a9a1170839a390abce"
-    COMPUTED_SHA256: ""
+  vep_enformer:
+    dbname: "vep_enformer"
+    version: "-"
+    out: "enformer_grch38.vcf.gz"
+    url: "https://ftp.ensembl.org/pub/current_variation/enformer/enformer_grch38.vcf.gz"
+    method: "wget"
+    expected_sha256: "e2a6d792c9e604a02c5de8b1aff9f943d3a035bb2e94f3a9a1170839a390abce"
+    computed_sha256: ""
 
-  VEP_Enformer_tbi:
-    DBname: "vep_Enformer"
-    VERSION: "-"
-    OUT: "enformer_grch38.vcf.gz.tbi"
-    URL: "https://ftp.ensembl.org/pub/current_variation/Enformer/enformer_grch38.vcf.gz.tbi"
-    METHOD: "wget"
-    EXPECTED_SHA256: "a7231c74d01a3f95664188cec7596f3b50594495a48e825a2c49e9070731e8e5"
-    COMPUTED_SHA256: ""
+  vep_enformer_tbi:
+    dbname: "vep_enformer"
+    version: "-"
+    out: "enformer_grch38.vcf.gz.tbi"
+    url: "https://ftp.ensembl.org/pub/current_variation/enformer/enformer_grch38.vcf.gz.tbi"
+    method: "wget"
+    expected_sha256: "a7231c74d01a3f95664188cec7596f3b50594495a48e825a2c49e9070731e8e5"
+    computed_sha256: ""
 
-  VEP_dbscSNV:
-    DBname: "vep_dbscSNV"
-    VERSION: "1.1"
-    OUT: "dbscSNV1.1.zip"
-    URL: "https://usf.box.com/shared/static/ffwlywsat3q5ijypvunno3rg6steqfs8"
-    METHOD: "wget"
-    EXPECTED_SHA256: "491098c9a2a74a7e83a55d44f28dd96461869fa1b636cee73fa34462cabce6c7"
-    COMPUTED_SHA256: ""
+  vep_dbscsnv:
+    dbname: "vep_dbscsnv"
+    version: "1.1"
+    out: "dbscsnv1.1.zip"
+    url: "https://usf.box.com/shared/static/ffwlywsat3q5ijypvunno3rg6steqfs8"
+    method: "wget"
+    expected_sha256: "491098c9a2a74a7e83a55d44f28dd96461869fa1b636cee73fa34462cabce6c7"
+    computed_sha256: ""
 
-  VEP_ReferenceQuality:
-    DBname: "vep_ReferenceQuality"
-    VERSION: "-"
-    OUT: "annotated_clone_assembly_problems_GCF_000001405.38.gff3"
-    URL: "https://ftp.ncbi.nlm.nih.gov/pub/grc/human/GRC/GRCh38/MISC/annotated_clone_assembly_problems_GCF_000001405.38.gff3"
-    METHOD: "wget"
-    EXPECTED_SHA256: "1543bdc569f2fa9cb1d8ab355836d432c3212abfa0326329b581e856a37fafea"
-    COMPUTED_SHA256: ""
+  vep_referencequality:
+    dbname: "vep_referencequality"
+    version: "-"
+    out: "annotated_clone_assembly_problems_gcf_000001405.38.gff3"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/grc/human/grc/grch38/misc/annotated_clone_assembly_problems_gcf_000001405.38.gff3"
+    method: "wget"
+    expected_sha256: "1543bdc569f2fa9cb1d8ab355836d432c3212abfa0326329b581e856a37fafea"
+    computed_sha256: ""
 
-  VEP_ReferenceQuality_issues:
-    DBname: "vep_ReferenceQuality"
-    VERSION: "-"
-    OUT: "GRCh38.p12_issues.gff3"
-    URL: "https://ftp.ncbi.nlm.nih.gov/pub/grc/human/GRC/Issue_Mapping/GRCh38.p12_issues.gff3"
-    METHOD: "wget"
-    EXPECTED_SHA256: "187d48b35cd75aae89f412ab0c12c15cbfe42cf65d91c643a60c9b78537aea17"
-    COMPUTED_SHA256: ""
+  vep_referencequality_issues:
+    dbname: "vep_referencequality"
+    version: "-"
+    out: "grch38.p12_issues.gff3"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/grc/human/grc/issue_mapping/grch38.p12_issues.gff3"
+    method: "wget"
+    expected_sha256: "187d48b35cd75aae89f412ab0c12c15cbfe42cf65d91c643a60c9b78537aea17"
+    computed_sha256: ""
 
-  VEP_pLI:
-    DBname: "vep_pLI"
-    VERSION: 112
-    OUT: "pLI_values.txt"
-    URL: "https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/112/pLI_values.txt"
-    METHOD: "wget"
-    EXPECTED_SHA256: "3076dad5921db083436ada1e19835bfce52c487bf49ca0a899e3a48f51e7287f"
-    COMPUTED_SHA256: ""
+  vep_pli:
+    dbname: "vep_pli"
+    version: 112
+    out: "pli_values.txt"
+    url: "https://raw.githubusercontent.com/ensembl/vep_plugins/release/112/pli_values.txt"
+    method: "wget"
+    expected_sha256: "3076dad5921db083436ada1e19835bfce52c487bf49ca0a899e3a48f51e7287f"
+    computed_sha256: ""
 
-  VEP_MaxEntScan:
-    DBname: "vep_MaxEntScan"
-    VERSION: "-"
-    OUT: "MaxEntScan-master.zip"
-    URL: "https://github.com/matthdsm/MaxEntScan/archive/refs/heads/master.zip"
-    METHOD: "wget"
-    EXPECTED_SHA256: "0cf38706c22454819bd3ec600b10d743450e796bdb4ff051dd5050a84b4ef649"
-    COMPUTED_SHA256: ""
+  vep_maxentscan:
+    dbname: "vep_maxentscan"
+    version: "-"
+    out: "maxentscan-master.zip"
+    url: "https://github.com/matthdsm/maxentscan/archive/refs/heads/master.zip"
+    method: "wget"
+    expected_sha256: "0cf38706c22454819bd3ec600b10d743450e796bdb4ff051dd5050a84b4ef649"
+    computed_sha256: ""
 
-  VEP_EVE:
-    DBname: "vep_EVE"
-    VERSION: "-"
-    OUT: "download.zip"
-    URL: "https://evemodel.org/api/proteins/bulk/download/"
-    METHOD: "wget"
-    EXPECTED_SHA256: "8021735db00bcd73c739ac2f68b41070ac79482208caa0213b46163238846f89"
-    COMPUTED_SHA256: ""
+  vep_eve:
+    dbname: "vep_eve"
+    version: "-"
+    out: "download.zip"
+    url: "https://evemodel.org/api/proteins/bulk/download/"
+    method: "wget"
+    expected_sha256: "8021735db00bcd73c739ac2f68b41070ac79482208caa0213b46163238846f89"
+    computed_sha256: ""
 
-  VEP_PhenotypeOrthologous:
-    DBname: "vep_PhenotypeOrthologous"
-    VERSION: 112
-    OUT: "PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz"
-    URL: "https://ftp.ensembl.org/pub/current_variation/PhenotypeOrthologous/PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "6b69d9427267a5cecfb0786a041c7eada07d85cfe4a512aeb876fd024894aa51"
-    COMPUTED_SHA256: ""
+  vep_phenotypeorthologous:
+    dbname: "vep_phenotypeorthologous"
+    version: 112
+    out: "phenotypesorthologous_homo_sapiens_112_grch38.gff3.gz"
+    url: "https://ftp.ensembl.org/pub/current_variation/phenotypeorthologous/phenotypesorthologous_homo_sapiens_112_grch38.gff3.gz"
+    method: "wget"
+    expected_sha256: "6b69d9427267a5cecfb0786a041c7eada07d85cfe4a512aeb876fd024894aa51"
+    computed_sha256: ""
 
-  VEP_PhenotypeOrthologous_tbi:
-    DBname: "vep_PhenotypeOrthologous"
-    VERSION: 112
-    OUT: "PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz.tbi"
-    URL: "https://ftp.ensembl.org/pub/current_variation/PhenotypeOrthologous/PhenotypesOrthologous_homo_sapiens_112_GRCh38.gff3.gz.tbi"
-    METHOD: "wget"
-    EXPECTED_SHA256: "97a69535235d1b92c0232777a29b96c9ab2f744e125ef131473d353081fb1f87"
-    COMPUTED_SHA256: ""
+  vep_phenotypeorthologous_tbi:
+    dbname: "vep_phenotypeorthologous"
+    version: 112
+    out: "phenotypesorthologous_homo_sapiens_112_grch38.gff3.gz.tbi"
+    url: "https://ftp.ensembl.org/pub/current_variation/phenotypeorthologous/phenotypesorthologous_homo_sapiens_112_grch38.gff3.gz.tbi"
+    method: "wget"
+    expected_sha256: "97a69535235d1b92c0232777a29b96c9ab2f744e125ef131473d353081fb1f87"
+    computed_sha256: ""
 
-  VEP_mutfunc:
-    DBname: "vep_mutfunc"
-    VERSION: "-"
-    OUT: "mutfunc_data.db"
-    URL: "https://ftp.ensembl.org/pub/current_variation/mutfunc/mutfunc_data.db"
-    METHOD: "wget"
-    EXPECTED_SHA256: "92cd5a3e7faa26d3363ab0c5f3990b02e88daf26462471ae236affb29f2ef873"
-    COMPUTED_SHA256: ""
+  vep_mutfunc:
+    dbname: "vep_mutfunc"
+    version: "-"
+    out: "mutfunc_data.db"
+    url: "https://ftp.ensembl.org/pub/current_variation/mutfunc/mutfunc_data.db"
+    method: "wget"
+    expected_sha256: "92cd5a3e7faa26d3363ab0c5f3990b02e88daf26462471ae236affb29f2ef873"
+    computed_sha256: ""
 
-  VEP_ClinPred:
-    DBname: "vep_ClinPred"
-    VERSION: "-"
-    OUT: "ClinPred_GRCh38.txt"
-    URL: "https://drive.google.com/file/d/1e0kd9hO1uCEuGzAhwEmLCNluqDFJE28y"
-    METHOD: "gdown"
-    EXPECTED_SHA256: "3d879c3f58b1b18a51f66dec07a1886cfb735aa6a706253fad7599ead2ccfb07"
-    COMPUTED_SHA256: ""
+  vep_clinpred:
+    dbname: "vep_clinpred"
+    version: "-"
+    out: "clinpred_grch38.txt"
+    url: "https://drive.google.com/file/d/1e0kd9ho1uceugzahwemlcnluqdfje28y"
+    method: "gdown"
+    expected_sha256: "3d879c3f58b1b18a51f66dec07a1886cfb735aa6a706253fad7599ead2ccfb07"
+    computed_sha256: ""
 
   reference_genome:
-    DBname: "reference_genome"
-    VERSION: "-"
-    OUT: "hg38.fa.gz"
-    URL: "https://hgdownload.soe.ucsc.edu/goldenpath/hg38/bigZips/hg38.fa.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "c1dd87068c254eb53d944f71e51d1311964fce8de24d6fc0effc9c61c01527d4"
-    COMPUTED_SHA256: ""
+    dbname: "reference_genome"
+    version: "-"
+    out: "hg38.fa.gz"
+    url: "https://hgdownload.soe.ucsc.edu/goldenpath/hg38/bigzips/hg38.fa.gz"
+    method: "wget"
+    expected_sha256: "c1dd87068c254eb53d944f71e51d1311964fce8de24d6fc0effc9c61c01527d4"
+    computed_sha256: ""
 
-  VEP_MaveDB:
-    DBname: "vep_MaveDB"
-    VERSION: "-"
-    OUT: "MaveDB_variants.tsv.gz"
-    URL: "https://ftp.ensembl.org/pub/current_variation/MaveDB/MaveDB_variants.tsv.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "e1980ec8c151c555ba5efe6c20c37266ebefad14993b5ce5430b2fe8391360bd"
-    COMPUTED_SHA256: ""
+  vep_mavedb:
+    dbname: "vep_mavedb"
+    version: "-"
+    out: "mavedb_variants.tsv.gz"
+    url: "https://ftp.ensembl.org/pub/current_variation/mavedb/mavedb_variants.tsv.gz"
+    method: "wget"
+    expected_sha256: "e1980ec8c151c555ba5efe6c20c37266ebefad14993b5ce5430b2fe8391360bd"
+    computed_sha256: ""
 
-  VEP_MaveDB_tbi:
-    DBname: "vep_MaveDB"
-    VERSION: "-"
-    OUT: "MaveDB_variants.tsv.gz.tbi"
-    URL: "https://ftp.ensembl.org/pub/current_variation/MaveDB/MaveDB_variants.tsv.gz.tbi"
-    METHOD: "wget"
-    EXPECTED_SHA256: "179f696bdbbad2992578dfd5121457b28b505475397c75ad18c3559dcb88cba2"
-    COMPUTED_SHA256: ""
+  vep_mavedb_tbi:
+    dbname: "vep_mavedb"
+    version: "-"
+    out: "mavedb_variants.tsv.gz.tbi"
+    url: "https://ftp.ensembl.org/pub/current_variation/mavedb/mavedb_variants.tsv.gz.tbi"
+    method: "wget"
+    expected_sha256: "179f696bdbbad2992578dfd5121457b28b505475397c75ad18c3559dcb88cba2"
+    computed_sha256: ""
 
-  dbNSFP:
-    DBname: "dbNSFP"
-    VERSION: "5.3.1a"
-    OUT: "dbNSFP5.3.1a.zip"
-    URL: "https://dist.genos.us/academic/e55b09/dbNSFP5.3.1a.zip"
-    METHOD: "wget"
-    EXPECTED_SHA256: "a0a461acb19cf99f6b745073d633e6e9f34cc43f0ddc0514f0840b25fb889fc4"
-    COMPUTED_SHA256: ""
+  dbnsfp:
+    dbname: "dbnsfp"
+    version: "5.3.1a"
+    out: "dbnsfp5.3.1a.zip"
+    url: "https://dist.genos.us/academic/e55b09/dbnsfp5.3.1a.zip"
+    method: "wget"
+    expected_sha256: "a0a461acb19cf99f6b745073d633e6e9f34cc43f0ddc0514f0840b25fb889fc4"
+    computed_sha256: ""
 
-  VEP_UTRannotator:
-    DBname: "vep_UTRannotator"
-    VERSION: "-"
-    OUT: "uORF_5UTR_GRCh38_PUBLIC.txt"
-    URL: "https://raw.githubusercontent.com/Ensembl/UTRannotator/master/uORF_5UTR_GRCh38_PUBLIC.txt"
-    METHOD: "wget"
-    EXPECTED_SHA256: "e220023a747465dcdf6725ce809511bccc20b7a9990288da91032a1a7f51ebce"
-    COMPUTED_SHA256: ""
+  vep_utrannotator:
+    dbname: "vep_utrannotator"
+    version: "-"
+    out: "uorf_5utr_grch38_public.txt"
+    url: "https://raw.githubusercontent.com/ensembl/utrannotator/master/uorf_5utr_grch38_public.txt"
+    method: "wget"
+    expected_sha256: "e220023a747465dcdf6725ce809511bccc20b7a9990288da91032a1a7f51ebce"
+    computed_sha256: ""
 
-  ANNOVAR_refGene:
-    DBname: "annovar_refGene"
-    VERSION: "-"
-    OUT: "hg38_refGene.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_refGene.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "61f4c3e22da566c5f333a0f760f6ca5d03161e55bc63c8f71278eff596392da3"
-    COMPUTED_SHA256: ""
+  annovar_refgene:
+    dbname: "annovar_refgene"
+    version: "-"
+    out: "hg38_refgene.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_refgene.txt.gz"
+    method: "wget"
+    expected_sha256: "61f4c3e22da566c5f333a0f760f6ca5d03161e55bc63c8f71278eff596392da3"
+    computed_sha256: ""
 
-  ANNOVAR_refGeneMrna:
-    DBname: "annovar_refGeneMrna"
-    VERSION: "-"
-    OUT: "hg38_refGeneMrna.fa.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_refGeneMrna.fa.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "43b64e5379393c712f2a25b3f833bd25fe4e5e3c1c6b06fbe0ee0ef02756cbe5"
-    COMPUTED_SHA256: ""
+  annovar_refgenemrna:
+    dbname: "annovar_refgenemrna"
+    version: "-"
+    out: "hg38_refgenemrna.fa.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_refgenemrna.fa.gz"
+    method: "wget"
+    expected_sha256: "43b64e5379393c712f2a25b3f833bd25fe4e5e3c1c6b06fbe0ee0ef02756cbe5"
+    computed_sha256: ""
 
-  ANNOVAR_refGeneVersion:
-    DBname: "annovar_refGeneVersion"
-    VERSION: "-"
-    OUT: "hg38_refGeneVersion.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_refGeneVersion.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "e05db80cd2a08a63a05b2f5b5de6862dcbb6548ff9b4404f6630420c73fffdc3"
-    COMPUTED_SHA256: ""
+  annovar_refgeneversion:
+    dbname: "annovar_refgeneversion"
+    version: "-"
+    out: "hg38_refgeneversion.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_refgeneversion.txt.gz"
+    method: "wget"
+    expected_sha256: "e05db80cd2a08a63a05b2f5b5de6862dcbb6548ff9b4404f6630420c73fffdc3"
+    computed_sha256: ""
 
-  ANNOVAR_ensGene:
-    DBname: "annovar_ensGene"
-    VERSION: "-"
-    OUT: "hg38_ensGene.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_ensGene.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "6ccc16beb8f4c5703566fe30b428a483d409acf72bab5ac96dbd2a10d58f747a"
-    COMPUTED_SHA256: ""
+  annovar_ensgene:
+    dbname: "annovar_ensgene"
+    version: "-"
+    out: "hg38_ensgene.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_ensgene.txt.gz"
+    method: "wget"
+    expected_sha256: "6ccc16beb8f4c5703566fe30b428a483d409acf72bab5ac96dbd2a10d58f747a"
+    computed_sha256: ""
 
-  ANNOVAR_ensGeneMrna:
-    DBname: "annovar_ensGeneMrna"
-    VERSION: "-"
-    OUT: "hg38_ensGeneMrna.fa.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_ensGeneMrna.fa.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "f6f5171d74bc1883e6856e9a8dc4fddcfd6d964f882c595786aca919d258fb72"
-    COMPUTED_SHA256: ""
+  annovar_ensgenemrna:
+    dbname: "annovar_ensgenemrna"
+    version: "-"
+    out: "hg38_ensgenemrna.fa.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_ensgenemrna.fa.gz"
+    method: "wget"
+    expected_sha256: "f6f5171d74bc1883e6856e9a8dc4fddcfd6d964f882c595786aca919d258fb72"
+    computed_sha256: ""
 
-  ANNOVAR_avsnp150:
-    DBname: "annovar_avsnp150"
-    VERSION: 150
-    OUT: "hg38_avsnp150.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_avsnp150.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "fe50d2d6eb52fc1622174620f18587122659a74ccaff2f88c31e1325c3688987"
-    COMPUTED_SHA256: ""
+  annovar_avsnp150:
+    dbname: "annovar_avsnp150"
+    version: 150
+    out: "hg38_avsnp150.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_avsnp150.txt.gz"
+    method: "wget"
+    expected_sha256: "fe50d2d6eb52fc1622174620f18587122659a74ccaff2f88c31e1325c3688987"
+    computed_sha256: ""
 
-  ANNOVAR_avsnp150_idx:
-    DBname: "annovar_avsnp150"
-    VERSION: 150
-    OUT: "hg38_avsnp150.txt.idx.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_avsnp150.txt.idx.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "a7474e01efd748f70bc2b52e0ac2e510c747100d43e7eb0e3a9f14b10241a29b"
-    COMPUTED_SHA256: ""
+  annovar_avsnp150_idx:
+    dbname: "annovar_avsnp150"
+    version: 150
+    out: "hg38_avsnp150.txt.idx.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_avsnp150.txt.idx.gz"
+    method: "wget"
+    expected_sha256: "a7474e01efd748f70bc2b52e0ac2e510c747100d43e7eb0e3a9f14b10241a29b"
+    computed_sha256: ""
 
-  ANNOVAR_gnomad211_exome:
-    DBname: "annovar_gnomad211_exome"
-    VERSION: "2.1.1"
-    OUT: "hg38_gnomad211_exome.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_gnomad211_exome.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "018f4414137622b5e8875d7791c257ba80e0a6816822a6961ba68dd1b4111f49"
-    COMPUTED_SHA256: ""
+  annovar_gnomad211_exome:
+    dbname: "annovar_gnomad211_exome"
+    version: "2.1.1"
+    out: "hg38_gnomad211_exome.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_gnomad211_exome.txt.gz"
+    method: "wget"
+    expected_sha256: "018f4414137622b5e8875d7791c257ba80e0a6816822a6961ba68dd1b4111f49"
+    computed_sha256: ""
 
-  ANNOVAR_gnomad211_exome_idx:
-    DBname: "annovar_gnomad211_exome"
-    VERSION: "2.1.1"
-    OUT: "hg38_gnomad211_exome.txt.idx.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_gnomad211_exome.txt.idx.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "ce5e2902715859fe3bb2638761c6019b1fd50f6011f5aaa525dd92941c90f7ee"
-    COMPUTED_SHA256: ""
+  annovar_gnomad211_exome_idx:
+    dbname: "annovar_gnomad211_exome"
+    version: "2.1.1"
+    out: "hg38_gnomad211_exome.txt.idx.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_gnomad211_exome.txt.idx.gz"
+    method: "wget"
+    expected_sha256: "ce5e2902715859fe3bb2638761c6019b1fd50f6011f5aaa525dd92941c90f7ee"
+    computed_sha256: ""
 
-  ANNOVAR_dbnsfp35c:
-    DBname: "annovar_dbnsfp35c"
-    VERSION: "3.5c"
-    OUT: "hg38_dbnsfp35c.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_dbnsfp35c.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "a8e37ee891970b437baaaa93e3c14f747ad79626e8db6580e3752d8b6430d8cc"
-    COMPUTED_SHA256: ""
+  annovar_dbnsfp35c:
+    dbname: "annovar_dbnsfp35c"
+    version: "3.5c"
+    out: "hg38_dbnsfp35c.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_dbnsfp35c.txt.gz"
+    method: "wget"
+    expected_sha256: "a8e37ee891970b437baaaa93e3c14f747ad79626e8db6580e3752d8b6430d8cc"
+    computed_sha256: ""
 
-  ANNOVAR_dbnsfp35c_idx:
-    DBname: "annovar_dbnsfp35c"
-    VERSION: "3.5c"
-    OUT: "hg38_dbnsfp35c.txt.idx.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_dbnsfp35c.txt.idx.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "ac8581bdf98487b1edce9358bc26b1d64e4d3923de95e469d3f24e69be01fe15"
-    COMPUTED_SHA256: ""
+  annovar_dbnsfp35c_idx:
+    dbname: "annovar_dbnsfp35c"
+    version: "3.5c"
+    out: "hg38_dbnsfp35c.txt.idx.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_dbnsfp35c.txt.idx.gz"
+    method: "wget"
+    expected_sha256: "ac8581bdf98487b1edce9358bc26b1d64e4d3923de95e469d3f24e69be01fe15"
+    computed_sha256: ""
 
-  ANNOVAR_intervar_20180118:
-    DBname: "annovar_intervar"
-    VERSION: 20180118
-    OUT: "hg38_intervar_20180118.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_intervar_20180118.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "c32f4b907c27264be0e6e74971d3cabcd6f79d691477e435c2f03e77a5824ca8"
-    COMPUTED_SHA256: ""
+  annovar_intervar_20180118:
+    dbname: "annovar_intervar"
+    version: 20180118
+    out: "hg38_intervar_20180118.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_intervar_20180118.txt.gz"
+    method: "wget"
+    expected_sha256: "c32f4b907c27264be0e6e74971d3cabcd6f79d691477e435c2f03e77a5824ca8"
+    computed_sha256: ""
 
-  ANNOVAR_intervar_20180118_idx:
-    DBname: "annovar_intervar"
-    VERSION: 20180118
-    OUT: "hg38_intervar_20180118.txt.idx.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_intervar_20180118.txt.idx.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "056fee340423e285a14378f19f9eff3dfb99c47f65d13b9d2d2a01896ba589ba"
-    COMPUTED_SHA256: ""
+  annovar_intervar_20180118_idx:
+    dbname: "annovar_intervar"
+    version: 20180118
+    out: "hg38_intervar_20180118.txt.idx.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_intervar_20180118.txt.idx.gz"
+    method: "wget"
+    expected_sha256: "056fee340423e285a14378f19f9eff3dfb99c47f65d13b9d2d2a01896ba589ba"
+    computed_sha256: ""
 
-  ANNOVAR_clinvar_20250721:
-    DBname: "annovar_clinvar"
-    VERSION: 20250721
-    OUT: "hg38_clinvar_20250721.txt.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_clinvar_20250721.txt.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "2b2a316e975d2a4866f59da75cb16c54ffcc2123957aaaef8fc4303c05be441f"
-    COMPUTED_SHA256: ""
+  annovar_clinvar_20250721:
+    dbname: "annovar_clinvar"
+    version: 20250721
+    out: "hg38_clinvar_20250721.txt.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_clinvar_20250721.txt.gz"
+    method: "wget"
+    expected_sha256: "2b2a316e975d2a4866f59da75cb16c54ffcc2123957aaaef8fc4303c05be441f"
+    computed_sha256: ""
 
-  ANNOVAR_clinvar_20250721_idx:
-    DBname: "annovar_clinvar"
-    VERSION: 20250721
-    OUT: "hg38_clinvar_20250721.txt.idx.gz"
-    URL: "http://www.openbioinformatics.org/annovar/download/hg38_clinvar_20250721.txt.idx.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "c954367aba156bff682357235d9ceb942cecd5e50eda13bcb6651f10a0fabf51"
-    COMPUTED_SHA256: ""
+  annovar_clinvar_20250721_idx:
+    dbname: "annovar_clinvar"
+    version: 20250721
+    out: "hg38_clinvar_20250721.txt.idx.gz"
+    url: "http://www.openbioinformatics.org/annovar/download/hg38_clinvar_20250721.txt.idx.gz"
+    method: "wget"
+    expected_sha256: "c954367aba156bff682357235d9ceb942cecd5e50eda13bcb6651f10a0fabf51"
+    computed_sha256: ""
 
-  VEP_SpliceVault:
-    DBname: "vep_SpliceVault"
-    VERSION: "-"
-    OUT: "SpliceVault_data_GRCh38.tsv.gz"
-    URL: "https://ftp.ensembl.org/pub/current_variation/SpliceVault/SpliceVault_data_GRCh38.tsv.gz"
-    METHOD: "wget"
-    EXPECTED_SHA256: "04d487f484dc2dac6d0b98f7a417cf8f7a5c98550afd602cde547d07af3a1de6"
-    COMPUTED_SHA256: ""
+  vep_splicevault:
+    dbname: "vep_splicevault"
+    version: "-"
+    out: "splicevault_data_grch38.tsv.gz"
+    url: "https://ftp.ensembl.org/pub/current_variation/splicevault/splicevault_data_grch38.tsv.gz"
+    method: "wget"
+    expected_sha256: "04d487f484dc2dac6d0b98f7a417cf8f7a5c98550afd602cde547d07af3a1de6"
+    computed_sha256: ""
 
-  VEP_SpliceVault_tbi:
-    DBname: "vep_SpliceVault"
-    VERSION: "-"
-    OUT: "SpliceVault_data_GRCh38.tsv.gz.tbi"
-    URL: "https://ftp.ensembl.org/pub/current_variation/SpliceVault/SpliceVault_data_GRCh38.tsv.gz.tbi"
-    METHOD: "wget"
-    EXPECTED_SHA256: "571852b7a0bcadeddc7d0a7bd429ad7b5ec1e40c90de0943b1cc8d3c22738cb0"
-    COMPUTED_SHA256: ""
+  vep_splicevault_tbi:
+    dbname: "vep_splicevault"
+    version: "-"
+    out: "splicevault_data_grch38.tsv.gz.tbi"
+    url: "https://ftp.ensembl.org/pub/current_variation/splicevault/splicevault_data_grch38.tsv.gz.tbi"
+    method: "wget"
+    expected_sha256: "571852b7a0bcadeddc7d0a7bd429ad7b5ec1e40c90de0943b1cc8d3c22738cb0"
+    computed_sha256: ""
