@@ -50,7 +50,7 @@ grch38:
     out: "gwas.zip"
     url: "https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0?split=false"
     method: "wget"
-    expected_sha256: "a4448d4452aa78c2cddfac75ce8070e641eefe7822e03fbc313118885657a521"
+    expected_sha256: "9b1b2efe5811b67048a639cd5271ecb9011212370fa3f8590c354816295934db"
     computed_sha256: ""
 
   vep_enformer:
@@ -158,7 +158,7 @@ grch38:
     out: "ClinPred_GRCh38.txt"
     url: "1e0kd9hO1uCEuGzAhwEmLCNluqDFJE28y"
     method: "gdown"
-    expected_sha256: "3d879c3f58b1b18a51f66dec07a1886cfb735aa6a706253fad7599ead2ccfb07"
+    expected_sha256: "5db20e3fdd445551242431e2b0b6206bedac995ea4cf958d1f09afe930a7dc61"
     computed_sha256: ""
 
   reference_genome:
