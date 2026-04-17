@@ -156,7 +156,7 @@ grch38:
     dbname: "vep_clinpred"
     version: "-"
     out: "ClinPred_GRCh38.txt"
-    url: "https://drive.google.com/file/d/1e0kd9hO1uCEuGzAhwEmLCNluqDFJE28y"
+    url: "1e0kd9hO1uCEuGzAhwEmLCNluqDFJE28y"
     method: "gdown"
     expected_sha256: "3d879c3f58b1b18a51f66dec07a1886cfb735aa6a706253fad7599ead2ccfb07"
     computed_sha256: ""
