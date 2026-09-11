@@ -1,12 +1,14 @@
 grch38:
   vep_cache:
     dbname: "homo_sapiens_vep_cache"
-    version: 115
-    out: "homo_sapiens_vep_115_GRCh38.tar.gz"
-    url: "https://ftp.ensembl.org/pub/release-115/variation/indexed_vep_cache/homo_sapiens_vep_115_GRCh38.tar.gz"
+    version: 116
+    out: "homo_sapiens_vep_116_GRCh38.tar.gz"
+    url: "https://ftp.ensembl.org/pub/release-116/variation/indexed_vep_cache/homo_sapiens_vep_116_GRCh38.tar.gz"
     method: "curl"
-    expected_sha256: "5871a5e34527cce76f7ac75399c33e306bf3be8083c63fe7d3459c56338f98de"
-    computed_sha256: ""
+    # Must track params.vep_container in nextflow.config: VEP requires a cache built for its own
+    # release. Verified together (see nextflow.config) before bumping either.
+    expected_sha256: "014c7dd9bb5ad06665866d62eb80f31ca761197bcb9b59280300676f996e600d"
+    computed_sha256: "014c7dd9bb5ad06665866d62eb80f31ca761197bcb9b59280300676f996e600d"
 
   vep_alphamissense:
     dbname: "vep_alphamissense"
@@ -15,6 +17,64 @@ grch38:
     url: "https://storage.googleapis.com/dm_alphamissense/AlphaMissense_hg38.tsv.gz"
     method: "wget"
     expected_sha256: "0516cfd71c0767ac8f9c469252d429000e94e02c008b6e3a46d4b4646fcd3475"
+    computed_sha256: ""
+
+  clingen_gene_dosage:
+    out: "ClinGen_gene_curation_list_GRCh38.tsv"
+    url: "https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv"
+    method: "curl"
+    # ClinGen updates this file continuously with no version in the URL or filename, the same
+    # situation as `clinvar` below: blank so the first real setup run establishes the baseline
+    # rather than this pipeline pinning a checksum that legitimately goes stale.
+    expected_sha256: ""
+    computed_sha256: ""
+
+  clingen_gene_validity:
+    out: "clingen_gene_validity.csv"
+    url: "https://search.clinicalgenome.org/kb/gene-validity/download"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  clingen_actionability_adult:
+    out: "clingen_actionability_adult.tsv"
+    url: "https://actionability.clinicalgenome.org/ac/Adult/api/summ/assertion?format=tsv"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  clingen_actionability_pediatric:
+    out: "clingen_actionability_pediatric.tsv"
+    url: "https://actionability.clinicalgenome.org/ac/Pediatric/api/summ/assertion?format=tsv"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  clingen_variant_path:
+    out: "erepo.tabbed.txt"
+    url: "https://erepo.clinicalgenome.org/evrepo/api/summary/classifications/download"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  clinvar:
+    dbname: "clinvar"
+    version: "2026-07-06"
+    out: "clinvar_20260706.vcf.gz"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/weekly/clinvar_20260706.vcf.gz"
+    method: "curl"
+    # NCBI cuts a new weekly release under a new dated filename/URL, so pinning a checksum here
+    # would need updating every week regardless -- blank, trust-on-first-use.
+    expected_sha256: ""
+    computed_sha256: ""
+
+  clinvar_tbi:
+    dbname: "clinvar"
+    version: "2026-07-06"
+    out: "clinvar_20260706.vcf.gz.tbi"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/weekly/clinvar_20260706.vcf.gz.tbi"
+    method: "curl"
+    expected_sha256: ""
     computed_sha256: ""
 
   vep_ancestralallele:
@@ -46,11 +106,11 @@ grch38:
 
   vep_gwas:
     dbname: "vep_gwas"
-    version: "-"
+    version: "1.0.2"
     out: "gwas.zip"
-    url: "https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0?split=false"
+    url: "https://www.ebi.ac.uk/gwas/api/search/downloads/associations/v1.0.2?split=false"
     method: "wget"
-    expected_sha256: "9b1b2efe5811b67048a639cd5271ecb9011212370fa3f8590c354816295934db"
+    expected_sha256: ""
     computed_sha256: ""
 
   vep_enformer:
