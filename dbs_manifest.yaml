@@ -418,3 +418,32 @@ grch38:
     method: "wget"
     expected_sha256: "571852b7a0bcadeddc7d0a7bd429ad7b5ec1e40c90de0943b1cc8d3c22738cb0"
     computed_sha256: ""
+
+  hpo:
+    # Human Phenotype Ontology, native distribution: the ontology and the gene and disease
+    # annotations of one release, pinned through that release's versioned PURLs. Used by MuSA 1.3+.
+    dbname: "hpo"
+    version: "2026-09-01"
+    out: "hp.obo"
+    url: "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.obo"
+    method: "curl"
+    expected_sha256: "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22"
+    computed_sha256: ""
+
+  hpo_genes_to_phenotype:
+    dbname: "hpo"
+    version: "2026-09-01"
+    out: "genes_to_phenotype.txt"
+    url: "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/genes_to_phenotype.txt"
+    method: "curl"
+    expected_sha256: "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c"
+    computed_sha256: ""
+
+  hpo_phenotype_hpoa:
+    dbname: "hpo"
+    version: "2026-09-01"
+    out: "phenotype.hpoa"
+    url: "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/phenotype.hpoa"
+    method: "curl"
+    expected_sha256: "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72"
+    computed_sha256: ""
