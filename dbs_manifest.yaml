@@ -104,6 +104,24 @@ grch38:
     expected_sha256: "bf21382da1faa72dfee9dd0905bc294b9e074f70b31daaed370f19b0db4ce8f4"
     computed_sha256: ""
 
+  vep_cadd_indels:
+    dbname: "vep_cadd_indels"
+    version: "1.7"
+    out: "gnomad.genomes.r4.0.indel.tsv.gz"
+    url: "https://kircherlab.bihealth.org/download/CADD/v1.7/GRCh38/gnomad.genomes.r4.0.indel.tsv.gz"
+    method: "wget"
+    expected_sha256: "19d5a784a99e5b0602089e6c527dbf9bba35d774fcc04b0d4669b0e00f1e8c8a"
+    computed_sha256: ""
+
+  vep_cadd_indels_tbi:
+    dbname: "vep_cadd_indels"
+    version: "1.7"
+    out: "gnomad.genomes.r4.0.indel.tsv.gz.tbi"
+    url: "https://kircherlab.bihealth.org/download/CADD/v1.7/GRCh38/gnomad.genomes.r4.0.indel.tsv.gz.tbi"
+    method: "wget"
+    expected_sha256: "dd2a1fca35816a82bc18a68e13f4fc9fce5536a2e7ed7a11e36863c589019f7e"
+    computed_sha256: ""
+
   vep_gwas:
     dbname: "vep_gwas"
     version: "1.0.2"
@@ -417,6 +435,17 @@ grch38:
     url: "https://ftp.ensembl.org/pub/current_variation/SpliceVault/SpliceVault_data_GRCh38.tsv.gz.tbi"
     method: "wget"
     expected_sha256: "571852b7a0bcadeddc7d0a7bd429ad7b5ec1e40c90de0943b1cc8d3c22738cb0"
+    computed_sha256: ""
+
+  clinvar_variant_summary:
+    # ClinVar's tabular release, for the PS1/PM5 residue index (MuSA 1.3+): the VCF above carries
+    # no protein change. The monthly archive closest to the VCF's date.
+    dbname: "clinvar_variant_summary"
+    version: "2026-07"
+    out: "variant_summary_2026-07.txt.gz"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2026-07.txt.gz"
+    method: "curl"
+    expected_sha256: "b3da921c707ff50cb4822f04d961834a9e89ef864b4c28bb5308245b93ac4077"
     computed_sha256: ""
 
   hpo:
