@@ -476,3 +476,129 @@ grch38:
     method: "curl"
     expected_sha256: "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72"
     computed_sha256: ""
+
+  vep_spliceai_snv:
+    dbname: "vep_spliceai"
+    version: "1.4 (Ensembl 116)"
+    out: "spliceai_scores.masked.snv.ensembl_mane_v1.4.grch38.vcf.gz"
+    url: "https://ftp.ensembl.org/pub/release-116/variation/SpliceAI/spliceai_scores.masked.snv.ensembl_mane_v1.4.grch38.vcf.gz"
+    method: "wget"
+    expected_sha256: "56a3d88ed14fdd8a7d8884ffdd1c745a64102258d3ccc2584916efd1099b062e"
+    computed_sha256: ""
+
+  vep_spliceai_snv_tbi:
+    dbname: "vep_spliceai"
+    version: "1.4 (Ensembl 116)"
+    out: "spliceai_scores.masked.snv.ensembl_mane_v1.4.grch38.vcf.gz.tbi"
+    url: "https://ftp.ensembl.org/pub/release-116/variation/SpliceAI/spliceai_scores.masked.snv.ensembl_mane_v1.4.grch38.vcf.gz.tbi"
+    method: "wget"
+    expected_sha256: "a64c62434c554f5c98a10f84dab8e5544f45b145cd28acf10411ec350e49c20d"
+    computed_sha256: ""
+
+  vep_protvar:
+    dbname: "vep_protvar"
+    version: "Ensembl 116"
+    out: "ProtVar_data.db"
+    url: "https://ftp.ensembl.org/pub/release-116/variation/ProtVar/ProtVar_data.db"
+    method: "wget"
+    expected_sha256: "901450af4bf2b7f2a76b96135fd4415aaf2beff342fc7dbdc97fc00eb75e7fb9"
+    computed_sha256: ""
+
+  vep_intact_mutations:
+    dbname: "vep_intact"
+    version: "2026-01-14"
+    out: "mutations.tsv"
+    url: "https://ftp.ebi.ac.uk/pub/databases/intact/current/various/mutations.tsv"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  vep_intact_mapping:
+    dbname: "vep_intact"
+    version: "2026-01-28"
+    out: "mutation_gc_map.txt"
+    url: "https://ftp.ebi.ac.uk/pub/databases/intact/current/various/mutation_gc_map.txt"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  vep_g2p:
+    dbname: "vep_g2p"
+    version: "-"
+    out: "G2P_all.csv"
+    url: "https://www.ebi.ac.uk/gene2phenotype/api/panel/all/download"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  vep_riboseqorfs:
+    dbname: "vep_riboseqorfs"
+    version: "Ensembl 116"
+    out: "Ribo-seq_ORFs.bed.gz"
+    url: "https://ftp.ensembl.org/pub/release-116/variation/RiboSeqORFs/Ribo-seq_ORFs.bed.gz"
+    method: "wget"
+    expected_sha256: "6fea2bb7a782d8e609e537634a8fe981a29c3fe70e145632e48c25814ac4f9e3"
+    computed_sha256: ""
+
+  vep_riboseqorfs_tbi:
+    dbname: "vep_riboseqorfs"
+    version: "Ensembl 116"
+    out: "Ribo-seq_ORFs.bed.gz.tbi"
+    url: "https://ftp.ensembl.org/pub/release-116/variation/RiboSeqORFs/Ribo-seq_ORFs.bed.gz.tbi"
+    method: "wget"
+    expected_sha256: "3be5a56f76b4f46b77cc6704041b629aea5520c4e9d4627ecbc0ae1bb33ccb05"
+    computed_sha256: ""
+
+  vep_mechpredict_dn:
+    dbname: "vep_mechpredict"
+    version: "2023-07-25"
+    out: "pdn.tsv"
+    url: "https://osf.io/xfy38/download"
+    method: "curl"
+    expected_sha256: "95c05110fa9c9f830cef8e46d551ed84fbffff347f8412b90e2c1636c37a5be6"
+    computed_sha256: ""
+
+  vep_mechpredict_gof:
+    dbname: "vep_mechpredict"
+    version: "2023-07-25"
+    out: "pgof.tsv"
+    url: "https://osf.io/h45ns/download"
+    method: "curl"
+    expected_sha256: "62d39aacc0cf87930944d5ddabc9237c2bfd6a049b370ada82f9396a687aad4a"
+    computed_sha256: ""
+
+  vep_mechpredict_lof:
+    dbname: "vep_mechpredict"
+    version: "2023-07-28"
+    out: "plof.tsv"
+    url: "https://osf.io/dj4qg/download"
+    method: "curl"
+    expected_sha256: "d935aecb5367152891e4abdd2818877ce381b36f6b512a3ddc51990c151b2c1f"
+    computed_sha256: ""
+
+  vep_dosagesensitivity:
+    dbname: "vep_dosagesensitivity"
+    version: "Collins 2022"
+    out: "Collins_rCNV_2022.dosage_sensitivity_scores.tsv.gz"
+    url: "https://zenodo.org/records/6347673/files/Collins_rCNV_2022.dosage_sensitivity_scores.tsv.gz"
+    method: "curl"
+    expected_sha256: "7ebdb970a4c9dc062352f9ee2771100c07ce579a3ac7eda6042569e0b9b91981"
+    computed_sha256: ""
+
+  vep_flaglrg:
+    dbname: "vep_flaglrg"
+    version: "-"
+    out: "list_LRGs_transcripts_xrefs.txt"
+    url: "https://ftp.ebi.ac.uk/pub/databases/lrgex/list_LRGs_transcripts_xrefs.txt"
+    method: "curl"
+    expected_sha256: ""
+    computed_sha256: ""
+
+  vep_gene_gff3:
+    dbname: "vep_gene_gff3"
+    version: "116"
+    out: "Homo_sapiens.GRCh38.gff3.gz"
+    url: "https://ftp.ensembl.org/pub/release-116/gff3/homo_sapiens/Homo_sapiens.GRCh38.116.gff3.gz"
+    method: "wget"
+    expected_sha256: "08e881d96ab6385a2c31f063a018be4b2c36860b323f2724be07022deeef21ce"
+    computed_sha256: ""
