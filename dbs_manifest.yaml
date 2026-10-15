@@ -635,3 +635,437 @@ grch38:
     method: "wget"
     expected_sha256: "08e881d96ab6385a2c31f063a018be4b2c36860b323f2724be07022deeef21ce"
     computed_sha256: ""
+
+  gnomad_exomes_chr1:
+    # gnomAD v4.1 exomes, Ensembl's trimmed VCFs for VEP --custom (MuSA 1.5+, extended):
+    # AC/AN/AF/nhomalt by ancestry group, grpmax, FAF95/FAF99 for SNVs and indels.
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr1_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr1_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "278909ea68c98e024d84ca52c411b7e80eb34028526c99f36a0c06b6db650a59"
+    computed_sha256: ""
+
+  gnomad_exomes_chr1_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr1_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr1_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "aa61abf3ccf2a0a741bf97259bbc1faa054e8e7450e8a779e0d1f41b237515ae"
+    computed_sha256: ""
+
+  gnomad_exomes_chr2:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr2_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr2_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "e3b97f6d99e2f0b27f38ec3c2c53285a4103c3bb01c75e35b43835af8c6e90a8"
+    computed_sha256: ""
+
+  gnomad_exomes_chr2_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr2_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr2_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "21004615b42c65662f2e5c8f5e1b97bf19e19d290f1b3245e918b2995c032d05"
+    computed_sha256: ""
+
+  gnomad_exomes_chr3:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr3_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr3_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "3e6eb0ae78bac9f332c4527043a9238bea72c98d839248ff576d81f1a1696179"
+    computed_sha256: ""
+
+  gnomad_exomes_chr3_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr3_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr3_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "fa994e8140c5d78ca4cce68a21f324dae8b5da788dd31bb5acbd5a993a4bc072"
+    computed_sha256: ""
+
+  gnomad_exomes_chr4:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr4_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr4_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "cf26ba17a98d7b35bb1f73f265bd066c041ac97daea0c538e8408a88b2cc89fa"
+    computed_sha256: ""
+
+  gnomad_exomes_chr4_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr4_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr4_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "ec0c2b485b8ae8cc3edb69ca005ffcb8affd4a790618251aebd4037024624f84"
+    computed_sha256: ""
+
+  gnomad_exomes_chr5:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr5_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr5_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "0de006b0340209965b10abf8471864545406b42e4d9573b4d4c6539441d0bb74"
+    computed_sha256: ""
+
+  gnomad_exomes_chr5_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr5_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr5_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "f1e5253763acdde52993a487687ab565b6757b55962112ce2a16c62478754b79"
+    computed_sha256: ""
+
+  gnomad_exomes_chr6:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr6_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr6_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "147ea6917acf1bfc58e6fd73d6897ce7bc112001e9d193f5da4393b928e84227"
+    computed_sha256: ""
+
+  gnomad_exomes_chr6_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr6_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr6_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "8fe343e00941e9ce057c0d99c5bb8bb3a65b906a48a3a3d5ee4e1b065c3e6b01"
+    computed_sha256: ""
+
+  gnomad_exomes_chr7:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr7_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr7_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "01b0c2c403ae2d4a0d2d512a3523e3a1100319bb95eb59c291959d0338136f06"
+    computed_sha256: ""
+
+  gnomad_exomes_chr7_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr7_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr7_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "6c030b355dafbe8686ef0aa0b0b99c04196efae3492d03289a9cf225bd0c1b30"
+    computed_sha256: ""
+
+  gnomad_exomes_chr8:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr8_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr8_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "749770277ab919fdfc9a2e61a780f3895d95b65bb134dd7c725a14cfa0a00d8f"
+    computed_sha256: ""
+
+  gnomad_exomes_chr8_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr8_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr8_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "bdd7df11669c4a64a9f8b283df2a86765ff4f35c906c80631b4f10295a7bc8ce"
+    computed_sha256: ""
+
+  gnomad_exomes_chr9:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr9_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr9_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "edaf8089c26ba53170196cca3eb7b161edf1446760c204c39fa9a94dde18465b"
+    computed_sha256: ""
+
+  gnomad_exomes_chr9_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr9_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr9_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "f93944c532d2c5cfb5c26987bf7b79241e6d492eb4caee5d1d3cb55a8615d9cc"
+    computed_sha256: ""
+
+  gnomad_exomes_chr10:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr10_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr10_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "948a3319bfcbd38e96b8264f4ac9892d8febc22efaa4a3bdd3a11d2613c5772d"
+    computed_sha256: ""
+
+  gnomad_exomes_chr10_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr10_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr10_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "42b4f590cd7c6d7e28f787437e71aedc8496f7f38ac71aaf045ab8f280ef95e2"
+    computed_sha256: ""
+
+  gnomad_exomes_chr11:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr11_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr11_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "d29516ccfa109403d6aab8f7b298ef6a65fdee0c7da3bae9ee2dc9d38224cdf4"
+    computed_sha256: ""
+
+  gnomad_exomes_chr11_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr11_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr11_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "783e9a57d100a96f99fff4e0eacac29f7cdaca378335f47439c766451ab0fc20"
+    computed_sha256: ""
+
+  gnomad_exomes_chr12:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr12_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr12_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "0ebd3ea1badbbffe579a1c6af5c555733f9da4cbcd4fc78c110b91fa3a77ab20"
+    computed_sha256: ""
+
+  gnomad_exomes_chr12_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr12_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr12_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "65f336bc7ac22736518473f8f3d4da7c5cdf2746c2263b8ad53a830cc135c586"
+    computed_sha256: ""
+
+  gnomad_exomes_chr13:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr13_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr13_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "a7eda174e15444ebec9a81861febec2cb8766c3aa251d6f5276eee2edbc63971"
+    computed_sha256: ""
+
+  gnomad_exomes_chr13_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr13_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr13_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "69a8acdba59ca27a74def3d8a072bbb3eff09b387652eb8bed1b44cddb854b4f"
+    computed_sha256: ""
+
+  gnomad_exomes_chr14:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr14_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr14_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "f615bf04b91bdc3e35405c01b7e230dc0b66825b80469ef5b10ac365a5af6f52"
+    computed_sha256: ""
+
+  gnomad_exomes_chr14_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr14_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr14_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "1757cd1cc8e6d8408e8af3fc3d760a1ed9d6ca39e5d39e517745a4e802a33201"
+    computed_sha256: ""
+
+  gnomad_exomes_chr15:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr15_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr15_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "57c402a7725f985d2bba61a5d9707d3953224c9c10617f9a7237032a6991a744"
+    computed_sha256: ""
+
+  gnomad_exomes_chr15_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr15_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr15_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "dc09280235485cd3164c93148b4ff6d95a569c88fa73990ead35dff1f11aa416"
+    computed_sha256: ""
+
+  gnomad_exomes_chr16:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr16_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr16_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "13822fbac4d302bcfb911e13b9b5b89b19b5cd5f48465e936f634abd27ecbed1"
+    computed_sha256: ""
+
+  gnomad_exomes_chr16_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr16_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr16_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "f16b2cc0db08d4e6cef4efcfc018eac0f364680c17f093216a3a389923b1c91d"
+    computed_sha256: ""
+
+  gnomad_exomes_chr17:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr17_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr17_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "811e15345333eb34f5ca13b4709485308d36f8ee6d4b13450948298515f88926"
+    computed_sha256: ""
+
+  gnomad_exomes_chr17_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr17_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr17_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "e9e29214e468324b310c610079951c65fb5cc3abb46510e4b55254fedf71ae21"
+    computed_sha256: ""
+
+  gnomad_exomes_chr18:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr18_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr18_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "81d77fc68cb49af8535668771b15445bc19e2c3293bf65cd942e7220cef54cc8"
+    computed_sha256: ""
+
+  gnomad_exomes_chr18_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr18_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr18_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "d748ae40ca5df287eb0861bba5e62a89e8ebf237467ad7800cc2b001d25ae98b"
+    computed_sha256: ""
+
+  gnomad_exomes_chr19:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr19_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr19_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "b2d4d4f276833fdb9359c5319be58fe8b49657a025b391bef6f636c5556c17f4"
+    computed_sha256: ""
+
+  gnomad_exomes_chr19_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr19_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr19_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "abbd8daa9a2f0448e6910adc71b8858c720fa9edd71fa28e87568b624531dfc2"
+    computed_sha256: ""
+
+  gnomad_exomes_chr20:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr20_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr20_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "605c42b2d1862b115bd060c9e04a49b428043d626f3ffddbeafd18e291642dc7"
+    computed_sha256: ""
+
+  gnomad_exomes_chr20_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr20_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr20_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "f7d42032910d806d3ce75da5d9f517299b35d7275dac64869384350849002e61"
+    computed_sha256: ""
+
+  gnomad_exomes_chr21:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr21_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr21_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "8760dceef48898b76900d772a74701cf83b6a23530311209eb4e7f1748538276"
+    computed_sha256: ""
+
+  gnomad_exomes_chr21_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr21_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr21_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "1c73b3f27268579c62c09ae42db502494b2aae09cb9e997f41569769d980731f"
+    computed_sha256: ""
+
+  gnomad_exomes_chr22:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr22_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr22_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "e892c5d75c91a4034176f8e29c474c3b74c3051ff22ad2ff0aa7f1b2afddb8da"
+    computed_sha256: ""
+
+  gnomad_exomes_chr22_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chr22_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chr22_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "418490e50f72f62fc755138cf73252038339c265ae4889016512d37ee1263074"
+    computed_sha256: ""
+
+  gnomad_exomes_chrX:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chrX_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chrX_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "9561f2693877c1e47c60c0797e08b215d8714f1ff96d0960fde28b1e9cf1bad2"
+    computed_sha256: ""
+
+  gnomad_exomes_chrX_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chrX_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chrX_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "2c637731a5500c63ae51db7a037109e23ea9c873aa7143a3fd0574412adfc2a1"
+    computed_sha256: ""
+
+  gnomad_exomes_chrY:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chrY_trimmed.vcf.bgz"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chrY_trimmed.vcf.bgz"
+    method: "curl"
+    expected_sha256: "da3a62026be65efad2b57082d78f990f0378cf0636ddb0416488043652d86278"
+    computed_sha256: ""
+
+  gnomad_exomes_chrY_tbi:
+    dbname: "gnomad_exomes"
+    version: "4.1"
+    out: "gnomad.exomes.v4.1.sites.chrY_trimmed.vcf.bgz.tbi"
+    url: "https://ftp.ensembl.org/pub/data_files/homo_sapiens/GRCh38/variation_genotype/gnomad/v4.1/exomes/gnomad.exomes.v4.1.sites.chrY_trimmed.vcf.bgz.tbi"
+    method: "curl"
+    expected_sha256: "733aac3843b356b62f8c21e85f193924bead8c96b9c2f49115bba2e16e78a2b9"
+    computed_sha256: ""
