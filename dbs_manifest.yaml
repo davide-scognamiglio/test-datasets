@@ -459,6 +459,28 @@ grch38:
     expected_sha256: "bf1051d450556631da484edf5a1505bbd0afa33dfc1c246f741a8a741ab55539"
     computed_sha256: ""
 
+  pubtator3:
+    # NCBI PubTator3 variant mentions, for the PubTator3_* columns (MuSA 1.5+). NCBI replaces this
+    # file in place with no archive: a newer download is recorded as MISMATCH in the setup report and
+    # setup carries on. The index is built locally (bin/pubtator3_links.py build).
+    dbname: "pubtator3"
+    version: "2026-10-06"
+    out: "mutation2pubtator3.gz"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTator3/mutation2pubtator3.gz"
+    method: "curl"
+    expected_sha256: "d1db43d63da395e13d35b2f5de3af3283aaab112d792ab1e5724adb2dff03435"
+    computed_sha256: ""
+
+  mane_summary:
+    # MANE v1.5 summary: maps PubTator3's NCBI Gene ids to gene symbols (MuSA 1.5+).
+    dbname: "mane"
+    version: "1.5"
+    out: "MANE.GRCh38.v1.5.summary.txt.gz"
+    url: "https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/release_1.5/MANE.GRCh38.v1.5.summary.txt.gz"
+    method: "curl"
+    expected_sha256: "d10ace2720681a3b2e0eefd9da4f551274a6b4141ac9bfd6a2565dfb6e9ad55c"
+    computed_sha256: ""
+
   hpo:
     # Human Phenotype Ontology, native distribution: the ontology and the gene and disease
     # annotations of one release, pinned through that release's versioned PURLs. Used by MuSA 1.3+.
