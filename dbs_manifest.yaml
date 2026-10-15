@@ -448,6 +448,17 @@ grch38:
     expected_sha256: "b3da921c707ff50cb4822f04d961834a9e89ef864b4c28bb5308245b93ac4077"
     computed_sha256: ""
 
+  clinvar_submission_summary:
+    # ClinVar's per-submission records with the submitters' comments, for the ClinVar_SCV_* and
+    # ClinVar_EP_codes columns (MuSA 1.5+). The monthly archive of the same month as the VCF above.
+    dbname: "clinvar_submission_summary"
+    version: "2026-07"
+    out: "submission_summary_2026-07.txt.gz"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-07.txt.gz"
+    method: "curl"
+    expected_sha256: "bf1051d450556631da484edf5a1505bbd0afa33dfc1c246f741a8a741ab55539"
+    computed_sha256: ""
+
   hpo:
     # Human Phenotype Ontology, native distribution: the ontology and the gene and disease
     # annotations of one release, pinned through that release's versioned PURLs. Used by MuSA 1.3+.
